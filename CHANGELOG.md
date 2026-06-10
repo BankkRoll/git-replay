@@ -14,4 +14,4 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Subscription backend drives the Claude Agent SDK / Codex SDK so the agent owns its own session.
 - Resumable checkpoints keyed on bug + repo HEAD; isolated git worktrees for every stage.
 
-[Unreleased]: https://github.com/BankkRoll/replay/commits/main
+[Unreleased]: https://github.com/BankkRoll/git-replay/commits/main

@@ -20,7 +20,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     environment: release
-    if: github.repository == 'BankkRoll/replay'
+    if: github.repository == 'BankkRoll/git-replay'
     steps:
       - uses: actions/checkout@v4
         with:

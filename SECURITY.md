@@ -4,7 +4,7 @@
 
 Please report security issues privately. **Do not open a public issue for a vulnerability.**
 
-- Use GitHub's [private vulnerability reporting](https://github.com/BankkRoll/replay/security/advisories/new) ("Report a vulnerability" under the Security tab), or
+- Use GitHub's [private vulnerability reporting](https://github.com/BankkRoll/git-replay/security/advisories/new) ("Report a vulnerability" under the Security tab), or
 - Email the maintainer listed in the repository profile.
 
 Include enough detail to reproduce: the command run, the repository state, and the observed vs. expected behavior. We aim to acknowledge reports within 7 days.

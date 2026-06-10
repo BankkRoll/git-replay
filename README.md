@@ -1,6 +1,6 @@
 # replay
 
-[![ci](https://github.com/BankkRoll/replay/actions/workflows/ci.yml/badge.svg)](https://github.com/BankkRoll/replay/actions/workflows/ci.yml)
+[![ci](https://github.com/BankkRoll/git-replay/actions/workflows/ci.yml/badge.svg)](https://github.com/BankkRoll/git-replay/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/git-replay.svg)](https://www.npmjs.com/package/git-replay)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A520-brightgreen.svg)](package.json)

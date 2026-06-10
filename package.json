@@ -5,13 +5,13 @@
   "type": "module",
   "license": "MIT",
   "author": "BankkRoll",
-  "homepage": "https://github.com/BankkRoll/replay#readme",
+  "homepage": "https://github.com/BankkRoll/git-replay#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BankkRoll/replay.git"
+    "url": "git+https://github.com/BankkRoll/git-replay.git"
   },
   "bugs": {
-    "url": "https://github.com/BankkRoll/replay/issues"
+    "url": "https://github.com/BankkRoll/git-replay/issues"
   },
   "keywords": [
     "bug",
