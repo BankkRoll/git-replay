@@ -1,7 +1,7 @@
 # replay
 
 [![ci](https://github.com/BankkRoll/replay/actions/workflows/ci.yml/badge.svg)](https://github.com/BankkRoll/replay/actions/workflows/ci.yml)
-[![npm](https://img.shields.io/npm/v/replay.svg)](https://www.npmjs.com/package/replay)
+[![npm](https://img.shields.io/npm/v/git-replay.svg)](https://www.npmjs.com/package/git-replay)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A520-brightgreen.svg)](package.json)
 
@@ -42,8 +42,10 @@ The verification gate is the product. A repro you can't make fail, you can't pro
 ## Install
 
 ```bash
-pnpm add -g replay   # or npm i -g replay
+pnpm add -g git-replay   # or npm i -g git-replay
 ```
+
+The package is `git-replay`; the installed command is `replay`.
 
 ## Quick start
 
