@@ -1,6 +1,6 @@
 {
   "name": "git-replay",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A deterministic bug-fixing harness: hand it a bug, get back a reproducing test, a verified fix, and the commit that introduced it — proven by code that runs, not by prose.",
   "type": "module",
   "license": "MIT",

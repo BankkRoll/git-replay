@@ -6,6 +6,18 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Fixed
+
+- `bin` path so npm installs the `replay` command correctly.
+
+### Changed
+
+- Published as `git-replay` (the `replay` name was taken); the installed command is still `replay`.
+
+## [0.1.0]
+
 ### Added
 
 - Initial release: `init`, `run`, and per-stage commands (`reconstruct`, `bisect`, `localize`, `fix`).
@@ -14,4 +26,6 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Subscription backend drives the Claude Agent SDK / Codex SDK so the agent owns its own session.
 - Resumable checkpoints keyed on bug + repo HEAD; isolated git worktrees for every stage.
 
-[Unreleased]: https://github.com/BankkRoll/git-replay/commits/main
+[Unreleased]: https://github.com/BankkRoll/git-replay/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/BankkRoll/git-replay/compare/v0.1.0...v0.1.1
+[0.1.0]: https://github.com/BankkRoll/git-replay/releases/tag/v0.1.0
