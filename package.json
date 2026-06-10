@@ -1,0 +1,65 @@
+{
+  "name": "replay",
+  "version": "0.1.0",
+  "description": "A deterministic bug-fixing harness: hand it a bug, get back a reproducing test, a verified fix, and the commit that introduced it — proven by code that runs, not by prose.",
+  "type": "module",
+  "license": "MIT",
+  "author": "BankkRoll",
+  "homepage": "https://github.com/BankkRoll/replay#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BankkRoll/replay.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BankkRoll/replay/issues"
+  },
+  "keywords": [
+    "bug",
+    "repro",
+    "bisect",
+    "git",
+    "ai-agent",
+    "testing",
+    "regression",
+    "vercel-ai-gateway",
+    "claude",
+    "codex"
+  ],
+  "bin": {
+    "replay": "./dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/cli/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.3.170",
+    "@anthropic-ai/sdk": "^0.104.1",
+    "@openai/codex-sdk": "^0.139.0",
+    "execa": "^9.5.1",
+    "picocolors": "^1.1.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.0",
+    "eslint": "^9.17.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "pnpm@10.6.5"
+}

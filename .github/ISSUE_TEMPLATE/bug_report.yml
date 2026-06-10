@@ -1,0 +1,64 @@
+name: Bug report
+description: Something in replay itself misbehaves (not a bug in your own code that replay is analyzing).
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a report. Please do **not** paste private source code or credentials.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did replay do, and what did you expect instead?
+      placeholder: "replay bisect reported convergence failure on a normal repo…"
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command and output
+      description: The exact command you ran and the relevant output (redact secrets).
+      render: shell
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Which stage
+      options:
+        - reconstruct
+        - bisect
+        - localize
+        - fix
+        - init / config
+        - auth / credentials
+        - not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: backend
+    attributes:
+      label: Backend / auth
+      options:
+        - explicit API key
+        - Vercel AI Gateway (key)
+        - Vercel OIDC
+        - Claude subscription
+        - Codex subscription
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: replay version
+      description: Output of `replay --version`.
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: OS and Node version
+      placeholder: "Windows 11, Node 20.11"
+    validations:
+      required: true
