@@ -6,6 +6,13 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [0.1.2]
+
+### Changed
+
+- Upgraded dependencies: zod 3→4, TypeScript 5→6, ESLint 9→10, vitest 2→4 (with vite 6), @types/node 22→25.
+- Bumped CI actions: checkout, setup-node, and pnpm/action-setup to v6 (addresses the Node 20 runner deprecation).
+
 ## [0.1.1]
 
 ### Fixed
@@ -26,6 +33,7 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - Subscription backend drives the Claude Agent SDK / Codex SDK so the agent owns its own session.
 - Resumable checkpoints keyed on bug + repo HEAD; isolated git worktrees for every stage.
 
-[Unreleased]: https://github.com/BankkRoll/git-replay/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/BankkRoll/git-replay/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/BankkRoll/git-replay/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/BankkRoll/git-replay/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/BankkRoll/git-replay/releases/tag/v0.1.0
